@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dzn Buzzard ✨ Catálogo de Diseños</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: linear-gradient(180deg, #f8f9ff 0%, #e6e9ff 100%); color: #333; }
+    
+    header { 
+        background: linear-gradient(135deg, #1a237e 0%, #5c6bc0 50%, #ce93d8 100%); 
+        color: white; 
+        padding: 50px 20px; 
+        text-align: center; 
+        border-bottom: 4px solid #ffd1dc;
+    }
+    header .logo { font-size: 3em; font-weight: 800; letter-spacing: 2px; margin-bottom: 5px; text-shadow: 0 3px 10px rgba(0,0,0,0.3); }
+    header .slogan { font-size: 1.1em; opacity: 0.95; font-weight: 300; }
 
+    .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+    
+    .section { 
+        background: white; 
+        border-radius: 20px; 
+        padding: 28px; 
+        margin-bottom: 25px; 
+        box-shadow: 0 8px 25px rgba(92,107,192,0.15); 
+        border-left: 6px solid #5c6bc0;
+        transition: 0.3s;
+    }
+    .section:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(92,107,192,0.25); }
+    
+    .section h2 { 
+        color: #1a237e; 
+        margin-bottom: 18px; 
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .item { 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 14px 0; 
+        border-bottom: 1px dashed #d1c4e9; 
+    }
+    .item:last-child { border-bottom: none; }
+    .item-name { font-weight: 600; color: #3f51b5; }
+    .item-name small { display: block; color: #777; font-size: 0.85em; font-weight: 400; }
+    .item-price { color: #7b1fa2; font-weight: 700; white-space: pre-line; text-align: right; font-size: 0.95em; }
+
+    .payment-method { 
+        background: linear-gradient(135deg, #e8eaf6 0%, #f3e5f5 100%); 
+        padding: 18px; 
+        border-radius: 15px; 
+        margin-bottom: 15px; 
+        border-left: 5px solid #5c6bc0;
+    }
+    .payment-method h3 { color: #1a237e; margin-bottom: 10px; font-size: 1.05em; font-weight: 700; }
+    .payment-method p { margin: 6px 0; font-size: 0.95em; }
+    
+    .copy-btn {
+        background: linear-gradient(135deg, #5c6bc0 0%, #7b1fa2 100%);
+        color: white;
+        border: none;
+        padding: 6px 14px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 0.8em;
+        font-weight: 600;
+        margin-left: 10px;
+        transition: 0.3s;
+    }
+    .copy-btn:hover { transform: scale(1.05); }
+
+    .whatsapp-btn {
+        display: block;
+        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        color: white;
+        text-align: center;
+        padding: 18px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 1.15em;
+        margin-top: 25px;
+        transition: 0.3s;
+        box-shadow: 0 6px 20px rgba(37,211,102,0.3);
+    }
+    .whatsapp-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(37,211,102,0.4); }
+
+    footer { text-align: center; padding: 25px; color: #5c6bc0; font-size: 0.9em; font-weight: 500; }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">DZN BUZZARD</div>
+    <p class="slogan">✨ Diseños que vuelan alto ✨</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>💅 CALIGRÁFICOS</h2>
+        <div class="item"><span class="item-name">Simple 100 diamantes</span><span class="item-price">35mxn
+3,000ars 1,800clp 2usd</span></div>
+        <div class="item"><span class="item-name">Objeto 100 diamantes</span><span class="item-price">40mxn
+3,500ars 2,000clp 2.30usd</span></div>
+        <div class="item"><span class="item-name">Curvo 200 diamantes</span><span class="item-price">45mxn
+4,000ars 2,300clp 2.50usd</span></div>
+        <div class="item"><span class="item-name">Temático 200 diamantes</span><span class="item-price">50mxn
+4,500ars 2,500clp 3usd</span></div>
+    </div>
+
+    <div class="section">
+        <h2>🎀 FONDOS Y MARCAS DE AGUA</h2>
+        <div class="item"><span class="item-name">Fondo básico</span><span class="item-price">40mxn
+3,500ars 2,000clp 2.50usd</span></div>
+        <div class="item"><span class="item-name">Fondo personalizado</span><span class="item-price">55mxn
+5,000ars 2,800clp 3usd</span></div>
+        <div class="item"><span class="item-name">Marca de agua básica</span><span class="item-price">30mxn
+2,500ars 1,500clp 2usd</span></div>
+        <div class="item"><span class="item-name">Marca de agua personalizada</span><span class="item-price">45mxn
+4,000ars 2,300clp 2.50usd</span></div>
+    </div>
+
+    <div class="section">
+        <h2>👑 PACKS ESPECIALES</h2>
+        <div class="item"><span class="item-name">Pack inicio<br><small>cali simple, marcas agua, text logo</small></span><span class="item-price">95mxn
+8,500ars 4,800clp 5.50usd</span></div>
+        <div class="item"><span class="item-name">Pack identidad<br><small>text logo, marcas agua, destacadas x4</small></span><span class="item-price">100mxn
+9,000ars 5,000clp 5.50usd</span></div>
+        <div class="item"><span class="item-name">Pack cali<br><small>cali simple, curvo, temático</small></span><span class="item-price">90mxn
+8,000ars 4,500clp 5usd</span></div>
+        <div class="item"><span class="item-name">Pack completo<br><small>fondo, text logo, marcas agua, p. personalizada, destacadas x4</small></span><span class="item-price">145mxn
+13,000ars 7,300clp 8usd</span></div>
+    </div>
+
+    <div class="section">
+        <h2>🌸 INDIVIDUALES</h2>
+        <div class="item"><span class="item-name">Text logo</span><span class="item-price">45mxn
+4,000ars 2,300clp 2.50usd</span></div>
+        <div class="item"><span class="item-name">Destacadas x4</span><span class="item-price">40mxn
+3,500ars 2,000clp 2.30usd</span></div>
+        <div class="item"><span class="item-name">Stickers c/u</span><span class="item-price">30mxn
+2,500ars 1,500clp 2usd</span></div>
+        <div class="item"><span class="item-name">Stickers x3</span><span class="item-price">80mxn
+7,000ars 4,000clp 4.50usd</span></div>
+        <div class="item"><span class="item-name">Stickers x5</span><span class="item-price">125mxn
+11,000ars 6,300clp 7usd</span></div>
+    </div>
+
+    <div class="section">
+        <h2>💳 MÉTODOS DE PAGO</h2>
+        
+        <div class="payment-method">
+            <h3>🇲🇽 TRANSFERENCIA / DEPÓSITO MXN</h3>
+            <p><b>CLABE:</b> 722969020738386592 <button class="copy-btn" onclick="copy('722969020738386592')">Copiar</button></p>
+            <p><b>Beneficiario:</b> Luisiana Antonella Sabas Cedillo</p>
+            <p><b>Institución:</b> Mercado Pago W</p>
+        </div>
+
+        <div class="payment-method">
+            <h3>💖 PayPal</h3>
+            <p><b>Correo:</b> nxllasaceepp@gmail.com <button class="copy-btn" onclick="copy('nxllasaceepp@gmail.com')">Copiar</button></p>
+            <p><b>Usuario:</b> @nellitadzn</p>
+        </div>
+
+        <div class="payment-method">
+            <h3>🌎 Global66</h3>
+            <p><b>Titular:</b> Luisiana Antonella Sabas Cedillo</p>
+            <p><b>CLABE:</b> 703012052250195642 <button class="copy-btn" onclick="copy('703012052250195642')">Copiar</button></p>
+        </div>
+
+        <div class="payment-method">
+            <h3>💎 AstroPay</h3>
+            <p><b>CLABE:</b> 646180516100611921 <button class="copy-btn" onclick="copy('646180516100611921')">Copiar</button></p>
+            <p><b>Banco:</b> STP</p>
+            <p><b>Destinatario:</b> SOONER CASH</p>
+        </div>
+    </div>
+
+    <a href="https://wa.me/525578713495" target="_blank" class="whatsapp-btn">💬 Pedir a Dzn Buzzard por WhatsApp</a>
+
+</div>
+
+<footer>
+    © 2026 Dzn Buzzard | Diseños que vuelan alto 💜
+</footer>
+
+<script>
+function copy(text) {
+    navigator.clipboard.writeText(text);
+    alert('✅ Copiado: ' + text);
+}
+</script>
+</body>
+                                                                                      </html>
